@@ -21,14 +21,19 @@ Go to plugin folder and copy:
 the material and the texture
 
 ### Create the static mesh from the skeleton mesh using the BP utility BP_CreateSM
+
 Ensure that the data asset is correct in the blueprint
 ![Alt text](image-3.png)
 
+and then run the blueprint utility BP_CreateSM
+
 ### Edit the data asset to put the Static Mesh
+
+![Alt text](image-12.png)
 
 ### Look the static mesh, and see the materials used
 
-Look at the material used in the Static Mesh. 
+Look at the materials used in the Static Mesh your are using. 
 ![Alt text](image-4.png)
 You will need to instantiate them in the next step
 
@@ -47,7 +52,7 @@ Select the texture parameters values :
 
 ![Alt text](image-1.png)
 
-copy the texture (UE5.3.1 crashes if there are no existing texture in the data asset, therefore we need to create the place holders)
+copy the texture (UE5.3.1 crashes if there are no existing texture in the data asset, therefore we need to create placeholders for them)
 
 ### Edit BP_AnimToTextureMat so that it has the correct material instances
 Edit BP_AnimToTexture so that it has the correct material instances values.
