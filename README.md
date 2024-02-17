@@ -68,17 +68,20 @@ Right click the material and create a new instance
 Do the same for hairs
 
 ### Edit the material instances
-In details tab
+In details tab, make sure the 2 boxes for  Param are activated
 ![Alt text](image.png)
 
-Select the ML_boneanimation material available in Plugings:
+Then go to Layer Parameters tab.
+
+Select the "ML_BoneAnimation" material available in Plugins section of Unreal Engine:
 ![Alt text](image-6.png)
 
 Select the texture parameters values :
 
 ![Alt text](image-1.png)
 
-Copy the texture (UE5.3.1 crashes if there are no existing texture in the data asset, therefore we need to create placeholders for them)
+Just select the textures which have been created at previously, don't fill other parameters
+(UE5.3.1 crashes if there are no existing texture in the data asset, therefore we need to create placeholders for them)
 
 ### Edit BP_AnimToTexture so that it has the correct material instances
 
@@ -90,12 +93,12 @@ For body:
 For hairs:
 ![Alt text](image-9.png)
 
-### Execute BP_AnimToTexture
-
+Execute BP_AnimToTexture
 
 ### Update and Execute BP_AnimToTextureMat
 
-Make sure that the proper material are defined
+Open BP_AnimToTextureMat. Make sure that the proper material are defined
+Then execute BP_AnimToTextureMat
 
 ### Create Actors that will be placed in the PCG
 
