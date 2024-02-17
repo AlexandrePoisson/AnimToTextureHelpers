@@ -15,45 +15,45 @@ Ultimately, the crowd is created using the blueprint : BP_Crowd_PCG
 
 ## Steps
 
-### Copy material (is it required ???)
-
-Go to plugin folder and copy the material and the texture
-
 ### Data Asset
 
-Create a copy of DA_Empty.
-In the scenario below, i created one named DA_Lewis
+Create a copy of DA_Empty. In the scenario below, I created one named DA_Lewis (Lewis is a Maximo character that I'm using)
 
-On the copy set the Skeletal Mesh
+Set the Skeletal Mesh
 
 and then run the Blueprint utility
 ![Alt text](image-14.png)
 
-you will see that :
+if that's successful you will see the following message :
+
 ![Alt text](image-15.png)
 
-Then save the newly created content :
+
+You need to save the newly created content :
 ![Alt text](image-16.png)
 
+### Review the data asset and add the animations in the Datasset
+
+Once done you can open the Data asset, and notice that the Static Mesh has been addded. 
 
 ![Alt text](image-13.png)
 
 ![Alt text](image-17.png)
 
+### Add the animations in the Datasset
+
+Add the animations in the dataasset. Those will be use to create the virtual texture.
+
+![Alt text](image-18.png)
 
 ### Update the material
 
-Select Use Material Attributes:
+Select "Use Material Attributes":
 ![Alt text](image-20.png)
 
-
-And then connect properly the nodes
+And then connect properly the nodes.
 ![Alt text](image-19.png)
 
-### Add the animations
-
-
-![Alt text](image-18.png)
 
 ### Look the static mesh, and see the materials used
 
@@ -78,15 +78,16 @@ Select the texture parameters values :
 
 ![Alt text](image-1.png)
 
-copy the texture (UE5.3.1 crashes if there are no existing texture in the data asset, therefore we need to create placeholders for them)
+Copy the texture (UE5.3.1 crashes if there are no existing texture in the data asset, therefore we need to create placeholders for them)
 
 ### Edit BP_AnimToTexture so that it has the correct material instances
-Edit BP_AnimToTexture so that it has the correct material instances values.
 
-For body
+Edit the blueprint utility BP_AnimToTexture with the correct material instances values.
+
+For body:
 ![Alt text](image-8.png)
 
-For hairs
+For hairs:
 ![Alt text](image-9.png)
 
 ### Execute BP_AnimToTexture
