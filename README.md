@@ -11,7 +11,7 @@ I used the assets contained in the AnimToTextureContent Plugins Folder shipped w
 
 I have created copy of them, modified it and add those modified items in this GIT Repository.
 
-Ultimately, the crowd is created using PCG
+Ultimately, the crowd is created using the blueprint : BP_Crowd_PCG
 
 ## Steps
 
