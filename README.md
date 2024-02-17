@@ -2,7 +2,7 @@
 
 Originally a fork of the excellent work from Kromond. 
 But changes introduced in Unreal Engine 5.2 broke it up.
-This repository is what I did for Unreal Engine 5.3.1, but the there were an update of the original work done by Kromond, maybe you need to look at it.
+This repository is what I did for Unreal Engine 5.3.1, but the there were an update of the original work done by Kromond, maybe you need to look at it : [https://github.com/kromond/AnimToTextureHelpers]
 
 ## Approach
 
